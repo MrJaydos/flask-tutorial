@@ -1,7 +1,6 @@
 from . import db
 from flask_login import UserMixin
-from sqlalchemy.sql import func
-
+from sqlalchemy import func
 
 
 # Define the schema of how the database shoud look within this classes
